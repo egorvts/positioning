@@ -10,4 +10,42 @@
     object-fit: contain;
 }
 
+.lightbox {
+    width: 640px;
+    display: none;
+    flex-direction: column;
+    background-color: ghostwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+    z-index: 1000;
+}
 
+.x-button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+.h2 {
+    padding: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: none;
+}
